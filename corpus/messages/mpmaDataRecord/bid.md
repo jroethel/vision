@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#bid"
+provenance: "docs/original/mpmaDataRecord.htm#_bid"
 unit_type: "message"
-title: "bid"
+title: "_bid"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="bid"></span>**bid**
+<span id="_bid"></span>**\_bid**
 
 > **Synopsis:**
 >
-> > PriceRecord bid
+> > PriceRecord \_bid
 >
 > **Description:**
 >
-> > Bid price, adjusted for splits in current currency associated with security.
+> > Bid price of 'security' on 'date' in 'baseCurrency' of recipient unadjusted for splits since 'adjustmentDate'.
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

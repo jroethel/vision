@@ -1,21 +1,21 @@
 ---
-provenance: "docs/original/mSchema.htm#imageName"
+provenance: "docs/original/mSchema.htm#_imageName"
 unit_type: "message"
-title: "imageName"
+title: "_imageName"
 ingested: "2026-09-22"
 class: "Schema"
 ---
 
-<span id="imageName"></span>**imageName**
+<span id="_imageName"></span>**\_imageName**
 
 > **Synopsis:**
 >
-> > Schema ClassDescriptor imageName
+> > Schema ClassDescriptor \_imageName
 >
 > **Description:**
 >
-> > Returns the name of the image file associated with this class formatted as an image tag if defined. The class name is returned otherwise.
+> > Returns the name of the image file associated with this class.
 >
-> **Type:** Method          **Returns:** [String](../../classes/clString.md)
+> **Type:** FixedProperty          **Returns:** [String](../../classes/clString.md)
 
 <img src="instdot.gif" data-align="middle" data-border="0" alt="o " />

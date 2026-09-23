@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaAccount.htm#totalMarketValueFixed"
+provenance: "docs/original/mpmaAccount.htm#_totalMarketValueFixed"
 unit_type: "message"
-title: "totalMarketValueFixed"
+title: "_totalMarketValueFixed"
 ingested: "2026-09-22"
 class: "pmaAccount"
 ---
 
-<span id="totalMarketValueFixed"></span>**totalMarketValueFixed**
+<span id="_totalMarketValueFixed"></span>**\_totalMarketValueFixed**
 
 > **Synopsis:**
 >
-> > Account totalMarketValueFixed
+> > Account \_totalMarketValueFixed
 >
 > **Description:**
 >
-> > Total market value of fixed income holdings (adjusted to current currency).
+> > Total market value of fixed income portion of account (in its base currency).
 >
-> **Type:** Method (time varying)          **Function:** Data          **Level:** Basic
+> **Type:** TimeSeriesProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

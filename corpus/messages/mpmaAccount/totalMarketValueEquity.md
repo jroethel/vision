@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaAccount.htm#totalMarketValueEquity"
+provenance: "docs/original/mpmaAccount.htm#_totalMarketValueEquity"
 unit_type: "message"
-title: "totalMarketValueEquity"
+title: "_totalMarketValueEquity"
 ingested: "2026-09-22"
 class: "pmaAccount"
 ---
 
-<span id="totalMarketValueEquity"></span>**totalMarketValueEquity**
+<span id="_totalMarketValueEquity"></span>**\_totalMarketValueEquity**
 
 > **Synopsis:**
 >
-> > Account totalMarketValueEquity
+> > Account \_totalMarketValueEquity
 >
 > **Description:**
 >
-> > Total market value of equity holdings (adjusted to current currency).
+> > Total market value of equity portion of account (in its base currency).
 >
-> **Type:** Method (time varying)          **Function:** Data          **Level:** Basic
+> **Type:** TimeSeriesProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

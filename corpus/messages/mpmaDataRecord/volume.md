@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#volume"
+provenance: "docs/original/mpmaDataRecord.htm#_volume"
 unit_type: "message"
-title: "volume"
+title: "_volume"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="volume"></span>**volume**
+<span id="_volume"></span>**\_volume**
 
 > **Synopsis:**
 >
-> > PriceRecord volume
+> > PriceRecord \_volume
 >
 > **Description:**
 >
-> > Volume, adjusted for splits.
+> > Trading volume of 'security' on 'date' unadjusted for splits since 'adjustmentDate'.
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

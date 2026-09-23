@@ -1,20 +1,20 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#price"
+provenance: "docs/original/mpmaDataRecord.htm#_price"
 unit_type: "message"
-title: "price"
+title: "_price"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="price"></span>**price**
+<span id="_price"></span>**\_price**
 
 > **Synopsis:**
 >
-> > PriceRecord price
+> > PriceRecord \_price
 >
 > **Description:**
 >
-> > Closing price, adjusted for splits in current currency associated with security.
+> > Same as 'recordValue'. Closing price of 'security' on 'date' in 'baseCurrency' of recipient unadjusted for splits since 'adjustmentDate'.
 >
 > **Type:** Method          **Function:** Data          **Level:** Basic
 >

@@ -1,17 +1,17 @@
 ---
-provenance: "docs/original/mString.htm#asOpenVisionChannel"
+provenance: "docs/original/mString.htm#__asOpenVisionChannel"
 unit_type: "message"
-title: "asOpenVisionChannel"
+title: "__asOpenVisionChannel"
 ingested: "2026-09-22"
 class: "String"
 ---
 
-<span id="asOpenVisionChannel"></span>**asOpenVisionChannel**
+<span id="__asOpenVisionChannel"></span>**\_\_asOpenVisionChannel**
 
 > **Synopsis:**
 >
-> > String asOpenVisionChannel
+> > String \_\_asOpenVisionChannel
 >
-> **Type:** Method          **Returns:** [Object](../../classes/clObject.md)
+> **Type:** Primitive          **Returns:** [Object](../../classes/clObject.md)
 
 <img src="instdot.gif" data-align="middle" alt="o " />

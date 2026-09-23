@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#high"
+provenance: "docs/original/mpmaDataRecord.htm#_high"
 unit_type: "message"
-title: "high"
+title: "_high"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="high"></span>**high**
+<span id="_high"></span>**\_high**
 
 > **Synopsis:**
 >
-> > PriceRecord high
+> > PriceRecord \_high
 >
 > **Description:**
 >
-> > High price, adjusted for splits in current currency associated with security.
+> > High price of 'security' on 'date' in 'baseCurrency' of recipient unadjusted for splits since 'adjustmentDate'.
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

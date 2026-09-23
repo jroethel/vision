@@ -1,18 +1,18 @@
 ---
-provenance: "docs/original/mNumber.htm#asOpenVisionChannel"
+provenance: "docs/original/mNumber.htm#__asOpenVisionChannel"
 unit_type: "message"
-title: "asOpenVisionChannel"
+title: "__asOpenVisionChannel"
 ingested: "2026-09-22"
 class: "Number"
 ---
 
-<span id="asOpenVisionChannel"></span>**asOpenVisionChannel**
+<span id="__asOpenVisionChannel"></span>**\_\_asOpenVisionChannel**
 
 > **Synopsis:**
 >
-> > Integer asOpenVisionChannel
+> > Integer \_\_asOpenVisionChannel
 >
-> **Type:** Method          **Returns:** [Object](../../classes/clObject.md)
+> **Type:** Primitive          **Returns:** [Object](../../classes/clObject.md)
 >
 > **Also Defined At:**  
 > \| [String](../mString/asOpenVisionChannel.md) \|

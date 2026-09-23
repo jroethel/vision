@@ -1,20 +1,20 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#div"
+provenance: "docs/original/mpmaDataRecord.htm#_div"
 unit_type: "message"
-title: "div"
+title: "_div"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="div"></span>**div**
+<span id="_div"></span>**\_div**
 
 > **Synopsis:**
 >
-> > DivRecord div
+> > DivRecord \_div
 >
 > **Description:**
 >
-> > Total dividends paid for security on date adjusted for splits in current currency associated with security.
+> > Same as 'recordValue'. Total cash dividend paid by 'security' on 'date' in record's 'baseCurrency' unadjusted for splits since 'adjustmentDate'.
 >
 > **Type:** Method          **Function:** Data          **Level:** Basic
 >

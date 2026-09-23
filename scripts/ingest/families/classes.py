@@ -29,7 +29,7 @@ def extract(paths, common) -> list:
         chunks = common.shred_html(html)
         if not chunks:
             continue
-        stem = path.stem
+        stem = common.safe_stem(path.stem)
         common.register_anchor(source, None, f"classes/{stem}.md")
         out_paths = []
         for i, (anchor, chunk_html) in enumerate(chunks, 1):

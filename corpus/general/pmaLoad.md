@@ -21,61 +21,61 @@ By default, all files referenced are in the directory */localvision/samples/pma/
 
 Tab-delimited file containing currency identifiers and names.
 
-[CurrencyMaster](../feeds/pma_CurrencyMaster.md)
+[CurrencyMaster](../feeds/pma-CurrencyMaster.md)
 
 *Country.pma*
 
 Tab-delimited file containing country identifiers and names and a currency identifier.
 
-[CountryMaster](../feeds/pma_CountryMaster.md)
+[CountryMaster](../feeds/pma-CountryMaster.md)
 
 *Sector.pma*
 
 Tab-delimited file containing sector identifiers and names.
 
-[SectorMaster](../feeds/pma_SectorMaster.md)
+[SectorMaster](../feeds/pma-SectorMaster.md)
 
 *Industry.pma*
 
 Tab-delimited file containing industry identifiers and names and a sector identifier.
 
-[IndustryMaster](../feeds/pma_IndustryMaster.md)
+[IndustryMaster](../feeds/pma-IndustryMaster.md)
 
 *Company.pma*
 
 Tab-delimited file containing basic company information: id, name, country, industry id, and fiscalYearEnd.
 
-[CountryMaster](../feeds/pma_CountryMaster.md)
+[CountryMaster](../feeds/pma-CountryMaster.md)
 
 *SecType.pma*
 
 Tab-delimited file containing basic SecurityType information: id, name, unitcalc, assetcategory
 
-[SecurityTypeMaster](../feeds/pma_SecurityTypeMaster.md)
+[SecurityTypeMaster](../feeds/pma-SecurityTypeMaster.md)
 
 *Security.pma*
 
 Tab-delimited file containing security information: id, name, currency, cusip, ticker, companyId, security type, and latestMarketCapUS.
 
-[SecurityMaster](../feeds/pma_SecurityMaster.md)
+[SecurityMaster](../feeds/pma-SecurityMaster.md)
 
 *Portfolio.pma*
 
 Tab-delimited file containing additional portfolio information: id, name
 
-[SecurityMaster](../feeds/pma_PortfolioMaster.md)
+[SecurityMaster](../feeds/pma-PortfolioMaster.md)
 
 *Price.pma*
 
 Tab-delimited file containing price information for different time points.
 
-[PriceFeed](../feeds/pma_PriceFeed.md)
+[PriceFeed](../feeds/pma-PriceFeed.md)
 
 *Holdings.pma*
 
 Tab-delimited file containing holdings information for portfolios over time.
 
-[HoldingsFeed](../feeds/pma_HoldingsFeed.md)
+[HoldingsFeed](../feeds/pma-HoldingsFeed.md)
 
 *sample.pma*
 

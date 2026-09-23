@@ -5,25 +5,25 @@ title: "Message XRef: Other (part 2)"
 ingested: "2026-09-22"
 ---
 
-[**\>= aValue**](../mNumber/___3a1e9b.md) -- Method in class [Number](../../classes/clNumber.md)  
-[**\>= aString**](../mString/___3a1e9b.md) -- Method in class [String](../../classes/clString.md)  
-[**\>= aValue**](../mNA/___3a1e9b.md) -- Constant in class [Undefined](../../classes/clNA.md)  
+[**\>= aValue**](../mNumber/op-3a1e9b.md) -- Method in class [Number](../../classes/clNumber.md)  
+[**\>= aString**](../mString/op-3a1e9b.md) -- Method in class [String](../../classes/clString.md)  
+[**\>= aValue**](../mNA/op-3a1e9b.md) -- Constant in class [Undefined](../../classes/clNA.md)  
 **\>= object** -- Method in class Utility UnixSeconds  
 **\_POP** -- Constant in class AdminTools  
-[**\_\_ActiveChannel**](../mOpenVision/__ActiveChannel.md) -- Primitive in class [OpenVision](../../general/tkOpenVision.md)  
+[**\_\_ActiveChannel**](../mOpenVision/ActiveChannel-4d7e8b.md) -- Primitive in class [OpenVision](../../general/tkOpenVision.md)  
 **\_\_acceptConnection** -- Primitive in class OpenVision Channel  
 **\_\_asOpenVisionChannel** -- Primitive in class Integer  
-[**\_\_asOpenVisionChannel**](../mString/__asOpenVisionChannel.md) -- Primitive in class [String](../../classes/clString.md)  
+[**\_\_asOpenVisionChannel**](../mString/asOpenVisionChannel.md) -- Primitive in class [String](../../classes/clString.md)  
 **\_\_channelType** -- Primitive in class OpenVision Channel  
-[**\_\_define: aSelector**](../mObject/__define_.md) -- Method in class [Object](../../classes/clObject.md)  
-[**\_\_define: aSelector toBe: anObject**](../mObject/__define_toBe_.md) -- Method in class [Object](../../classes/clObject.md)  
-[**\_\_defineFixedProperty: aSelector**](../mObject/__defineFixedProperty_.md) -- Method in class [Object](../../classes/clObject.md)  
-[**\_\_defineMethod: aBlock**](../mObject/__defineMethod_.md) -- Method in class [Object](../../classes/clObject.md)  
-[**\_\_defineProperty: aSelector**](../mObject/__defineProperty_.md) -- Method in class [Object](../../classes/clObject.md)  
-[**\_\_fixReference**](../mObject/__fixReference.md) -- Method in class [Object](../../classes/clObject.md)  
+[**\_\_define: aSelector**](../mObject/define.md) -- Method in class [Object](../../classes/clObject.md)  
+[**\_\_define: aSelector toBe: anObject**](../mObject/define-toBe.md) -- Method in class [Object](../../classes/clObject.md)  
+[**\_\_defineFixedProperty: aSelector**](../mObject/defineFixedProperty.md) -- Method in class [Object](../../classes/clObject.md)  
+[**\_\_defineMethod: aBlock**](../mObject/defineMethod.md) -- Method in class [Object](../../classes/clObject.md)  
+[**\_\_defineProperty: aSelector**](../mObject/defineProperty.md) -- Method in class [Object](../../classes/clObject.md)  
+[**\_\_fixReference**](../mObject/fixReference.md) -- Method in class [Object](../../classes/clObject.md)  
 **\_\_fixReference** -- Method in class Primitive  
-[**\_\_fixReference**](../mDate/__fixReference.md) -- Method in class [Date](../../classes/clDate.md)  
-[**\_\_fixReference**](../mOffset/__fixReference.md) -- Method in class [DateOffset](clOffset.htm)  
+[**\_\_fixReference**](../mDate/fixReference.md) -- Method in class [Date](../../classes/clDate.md)  
+[**\_\_fixReference**](../mOffset/fixReference.md) -- Method in class [DateOffset](clOffset.htm)  
 **\_\_fixReference** -- Method in class Double  
 **\_\_fixReference** -- Method in class Float  
 **\_\_fixReference** -- Method in class Integer  
@@ -45,7 +45,7 @@ ingested: "2026-09-22"
 **\_\_state** -- Primitive in class OpenVision Channel  
 **\_\_status** -- Primitive in class OpenVision Channel  
 **\_\_wait:** -- Primitive in class OpenVision Channel  
-[**\_clusterType**](../mObject/_clusterType.md) -- Primitive in class [Object](../../classes/clObject.md)  
+[**\_clusterType**](../mObject/clusterType.md) -- Primitive in class [Object](../../classes/clObject.md)  
 **\_containerAsObject** -- Primitive in class AdminTools \_POP  
 **\_containerType** -- Primitive in class AdminTools \_POP  
 **\_extractSpace** -- Primitive in class AdminTools \_POP  
@@ -57,4 +57,4 @@ ingested: "2026-09-22"
 **\_primitiveRefTo:** -- Primitive in class Integer  
 **\|\| aBoolean** -- Method in class FALSE  
 **\|\| aBoolean** -- Method in class TRUE  
-[**\|\| aBoolean**](../mNA/___7d0104.md) -- Method in class [Undefined](../../classes/clNA.md)  
+[**\|\| aBoolean**](../mNA/op-7d0104.md) -- Method in class [Undefined](../../classes/clNA.md)  

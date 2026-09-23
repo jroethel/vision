@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaLinkRecord.htm#totalMarketValue"
+provenance: "docs/original/mpmaLinkRecord.htm#_totalMarketValue"
 unit_type: "message"
-title: "totalMarketValue"
+title: "_totalMarketValue"
 ingested: "2026-09-22"
 class: "pmaLinkRecord"
 ---
 
-<span id="totalMarketValue"></span>**totalMarketValue**
+<span id="_totalMarketValue"></span>**\_totalMarketValue**
 
 > **Synopsis:**
 >
-> > Holding totalMarketValue
+> > Holding \_totalMarketValue
 >
 > **Description:**
 >
-> > Market value of shares held (adjusted for currency override).
+> > Market value of shares held by account in security on date (in baseCurrency of account).
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

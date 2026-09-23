@@ -1,17 +1,17 @@
 ---
-provenance: "docs/original/mOpenVision.htm#status"
+provenance: "docs/original/mOpenVision.htm#__status"
 unit_type: "message"
-title: "status"
+title: "__status"
 ingested: "2026-09-22"
 class: "OpenVision"
 ---
 
-<span id="status"></span>**status**
+<span id="__status"></span>**\_\_status**
 
 > **Synopsis:**
 >
-> > OpenVision Channel status
+> > OpenVision Channel \_\_status
 >
-> **Type:** Method          **Returns:** [Object](../../classes/clObject.md)
+> **Type:** Primitive          **Returns:** [Object](../../classes/clObject.md)
 
 <img src="instdot.gif" data-align="middle" alt="o " />

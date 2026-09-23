@@ -32,8 +32,8 @@ def _anchor_name(m) -> str:
 def _message_units(path, common) -> list:
     units = []
     source = str(path)
-    stem = path.stem
-    cls = stem[1:]  # mObject.htm -> Object; file-based class mapping
+    stem = common.safe_stem(path.stem)
+    cls = path.stem[1:]  # mObject.htm -> Object; file-based class mapping
     text = _body(path)
     matches = list(_ANCHOR_RE.finditer(text))
     used: set[str] = set()  # lowercased stems: case-insensitive filesystem
@@ -82,7 +82,7 @@ def _xref_units(path, common) -> list:
                     else f"Message XRef: {letter} (part {n})",
                 extra={},
                 body_html=chunk_html,
-                out_path=f"messages/mXRef/{letter}-{n}.md",
+                out_path=f"messages/mXRef/{common.safe_stem(letter)}-{n}.md",
             ))
     return units
 

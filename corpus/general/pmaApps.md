@@ -27,38 +27,38 @@ The following standard applications are included as part of the **Portfolio Mana
 
 **Account Applications**
 
-- [Profile:](../reports/pma_AccountProfile.md) *summary information about an account*
-- [Holdings:](../reports/pma_AccountHoldings.md) *holdings detail for an account*
-- [HoldingsHistory:](../reports/pma_AccountHoldingsHistory.md) *summarizes holding history for an account*
-- [Chronology:](../reports/pma_AccountChronology.md) *holdings over time for an account*
-- [Breakdown:](../reports/pma_AccountBreakdown.md) *holdings summary by sector, country, or other user-selected grouping for an account*
-- [Characteristics:](../reports/pma_AccountCharacteristics.md) *summary characteristics for one or more accounts*
-- [Characteristic Details:](../reports/pma_AccountCharDetails.md) *characteristic details for an account*
-- [Compare:](../reports/pma_AccountCompare.md) *comparison of two or more accounts by user-selected grouping*
-- [Attribution:](../reports/pma_AccountAttribution.md) *computes the impact of security returns and stock selection between a source and target account*
-- [Component History:](../reports/pma_AccountComponentHistory.md) *shows account components over time for an aggregate or composite account*
+- [Profile:](../reports/pma-AccountProfile.md) *summary information about an account*
+- [Holdings:](../reports/pma-AccountHoldings.md) *holdings detail for an account*
+- [HoldingsHistory:](../reports/pma-AccountHoldingsHistory.md) *summarizes holding history for an account*
+- [Chronology:](../reports/pma-AccountChronology.md) *holdings over time for an account*
+- [Breakdown:](../reports/pma-AccountBreakdown.md) *holdings summary by sector, country, or other user-selected grouping for an account*
+- [Characteristics:](../reports/pma-AccountCharacteristics.md) *summary characteristics for one or more accounts*
+- [Characteristic Details:](../reports/pma-AccountCharDetails.md) *characteristic details for an account*
+- [Compare:](../reports/pma-AccountCompare.md) *comparison of two or more accounts by user-selected grouping*
+- [Attribution:](../reports/pma-AccountAttribution.md) *computes the impact of security returns and stock selection between a source and target account*
+- [Component History:](../reports/pma-AccountComponentHistory.md) *shows account components over time for an aggregate or composite account*
 
 **Security and Company Applications**
 
-- [Security Profile:](../reports/pma_SecurityProfile.md) *summary information about a security*
-- [Company Profile:](../reports/pma_CompanyProfile.md) *summary information about a company*
-- [Holdings in Security:](../reports/pma_HoldingsForSecurity.md) *holdings detail for portfolios holding a security*
-- [Holdings History:](../reports/pma_HoldingsHistoryForSecurity.md) *holdings history for a security*
-- [Pricing Report:](../reports/pma_SecurityPricingReport.md) *pricing history for a security*
-- [Earnings Report:](../reports/pma_CompanyEarningsReport.md) *earnings history for a company*
-- [Balance Sheet:](../reports/pma_CompanyBalanceSheet.md) *annual balance sheet for a company*
-- [Quarterly Balance Sheet:](../reports/pma_CompanyBalanceSheetQ.md) *quarterly balance sheet for a company*
-- [Income Statement:](../reports/pma_CompanyIncomeStatement.md) *annual income statement for a company*
-- [Quarterly Income Statement:](../reports/pma_CompanyIncomeStatementQ.md) *quarterly income statement for a company*
+- [Security Profile:](../reports/pma-SecurityProfile.md) *summary information about a security*
+- [Company Profile:](../reports/pma-CompanyProfile.md) *summary information about a company*
+- [Holdings in Security:](../reports/pma-HoldingsForSecurity.md) *holdings detail for portfolios holding a security*
+- [Holdings History:](../reports/pma-HoldingsHistoryForSecurity.md) *holdings history for a security*
+- [Pricing Report:](../reports/pma-SecurityPricingReport.md) *pricing history for a security*
+- [Earnings Report:](../reports/pma-CompanyEarningsReport.md) *earnings history for a company*
+- [Balance Sheet:](../reports/pma-CompanyBalanceSheet.md) *annual balance sheet for a company*
+- [Quarterly Balance Sheet:](../reports/pma-CompanyBalanceSheetQ.md) *quarterly balance sheet for a company*
+- [Income Statement:](../reports/pma-CompanyIncomeStatement.md) *annual income statement for a company*
+- [Quarterly Income Statement:](../reports/pma-CompanyIncomeStatementQ.md) *quarterly income statement for a company*
 
 **Industry and Universe Applications**
 
-- [Industry Profile:](../reports/pma_IndustryProfile.md) *summary information about an industry*
-- [Industry Membership:](../reports/pma_IndustryMembership.md) *list of companies in an industry*
-- [Industry Highlights:](../reports/pma_IndustryHighlights.md) *various financial aggregates for an industry*
-- [Industry Balance Sheet:](../reports/pma_IndustryBalanceSheet.md) *comparative balance sheet for largest companies in an industry*
-- [Industry Income Statement:](../reports/pma_IndustryIncomeStatement.md) *comparative income statement for largest companies in an industry*
-- [Universe Profile:](../reports/pma_UniverseProfile.md) *summary information about a universe*
-- [Universe Membership:](../reports/pma_UniverseMembership.md) *list of members in a universe*
+- [Industry Profile:](../reports/pma-IndustryProfile.md) *summary information about an industry*
+- [Industry Membership:](../reports/pma-IndustryMembership.md) *list of companies in an industry*
+- [Industry Highlights:](../reports/pma-IndustryHighlights.md) *various financial aggregates for an industry*
+- [Industry Balance Sheet:](../reports/pma-IndustryBalanceSheet.md) *comparative balance sheet for largest companies in an industry*
+- [Industry Income Statement:](../reports/pma-IndustryIncomeStatement.md) *comparative income statement for largest companies in an industry*
+- [Universe Profile:](../reports/pma-UniverseProfile.md) *summary information about a universe*
+- [Universe Membership:](../reports/pma-UniverseMembership.md) *list of members in a universe*
 
 {% include doc-footer.htm copydates="1998" %}

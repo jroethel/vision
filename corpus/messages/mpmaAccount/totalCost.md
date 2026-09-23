@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaAccount.htm#totalCost"
+provenance: "docs/original/mpmaAccount.htm#_totalCost"
 unit_type: "message"
-title: "totalCost"
+title: "_totalCost"
 ingested: "2026-09-22"
 class: "pmaAccount"
 ---
 
-<span id="totalCost"></span>**totalCost**
+<span id="_totalCost"></span>**\_totalCost**
 
 > **Synopsis:**
 >
-> > Account totalCost
+> > Account \_totalCost
 >
 > **Description:**
 >
-> > Total cost of holdings (adjusted to current currency).
+> > Total cost of holdings in account (in its base currency).
 >
-> **Type:** Method (time varying)          **Function:** Data          **Level:** Basic
+> **Type:** TimeSeriesProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

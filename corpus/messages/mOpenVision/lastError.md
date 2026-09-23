@@ -1,17 +1,17 @@
 ---
-provenance: "docs/original/mOpenVision.htm#lastError"
+provenance: "docs/original/mOpenVision.htm#__lastError"
 unit_type: "message"
-title: "lastError"
+title: "__lastError"
 ingested: "2026-09-22"
 class: "OpenVision"
 ---
 
-<span id="lastError"></span>**lastError**
+<span id="__lastError"></span>**\_\_lastError**
 
 > **Synopsis:**
 >
-> > OpenVision Channel lastError
+> > OpenVision Channel \_\_lastError
 >
-> **Type:** Method          **Returns:** [Object](../../classes/clObject.md)
+> **Type:** Primitive          **Returns:** [Object](../../classes/clObject.md)
 
 <img src="instdot.gif" data-align="middle" alt="o " />

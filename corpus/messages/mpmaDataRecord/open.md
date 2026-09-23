@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#open"
+provenance: "docs/original/mpmaDataRecord.htm#_open"
 unit_type: "message"
-title: "open"
+title: "_open"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="open"></span>**open**
+<span id="_open"></span>**\_open**
 
 > **Synopsis:**
 >
-> > PriceRecord open
+> > PriceRecord \_open
 >
 > **Description:**
 >
-> > Opening price, adjusted for splits in current currency associated with security.
+> > Opening price of 'security' on 'date' in 'baseCurrency' of recipient unadjusted for splits since 'adjustmentDate'.
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

@@ -250,6 +250,7 @@ def extract(paths, common) -> list:
     units = []
     for doc in docs:
         stem, kind = doc["stem"], doc["kind"]
+        out_stem = common.safe_stem(stem)
         family = {"feed": "feeds", "report": "reports", "status": "status"}[kind]
         body_html = doc["html"]
         extra_first = {}
@@ -278,11 +279,11 @@ def extract(paths, common) -> list:
         if not chunks:
             continue
 
-        out_first = f"{family}/{stem}.md"
+        out_first = f"{family}/{out_stem}.md"
         common.register_anchor(doc["source"], None, out_first)
         out_paths = []
         for i, (anchor, chunk_html) in enumerate(chunks, 1):
-            out_path = out_first if i == 1 else f"{family}/{stem}/{i}.md"
+            out_path = out_first if i == 1 else f"{family}/{out_stem}/{i}.md"
             out_paths.append(out_path)
             if anchor:
                 common.register_anchor(doc["source"], anchor, out_path)

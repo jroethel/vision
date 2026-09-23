@@ -147,7 +147,7 @@ The preparation date and the latest price now appear in the header. The third da
 
 ------------------------------------------------------------------------
 
-The next variation of this report converts this program to a *Company* method. This basically requires changing the *[do:](../messages/mList/do_.md)* message to a *defineMethod:* message and naming the method. The contents of the program itself need not change. Read the file *example1.d*. You should see:
+The next variation of this report converts this program to a *Company* method. This basically requires changing the *[do:](../messages/mList/do.md)* message to a *defineMethod:* message and naming the method. The contents of the program itself need not change. Read the file *example1.d*. You should see:
 
     Company defineMethod:      #-- this line is new 
     [ | financialAnalysis |    #-- name the method 

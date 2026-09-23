@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaDataRecord.htm#low"
+provenance: "docs/original/mpmaDataRecord.htm#_low"
 unit_type: "message"
-title: "low"
+title: "_low"
 ingested: "2026-09-22"
 class: "pmaDataRecord"
 ---
 
-<span id="low"></span>**low**
+<span id="_low"></span>**\_low**
 
 > **Synopsis:**
 >
-> > PriceRecord low
+> > PriceRecord \_low
 >
 > **Description:**
 >
-> > Low price, adjusted for splits in current currency associated with security.
+> > Low price of 'security' on 'date' in 'baseCurrency' of recipient unadjusted for splits since 'adjustmentDate'.
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

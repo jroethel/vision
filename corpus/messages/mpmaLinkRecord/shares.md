@@ -1,22 +1,22 @@
 ---
-provenance: "docs/original/mpmaLinkRecord.htm#shares"
+provenance: "docs/original/mpmaLinkRecord.htm#_shares"
 unit_type: "message"
-title: "shares"
+title: "_shares"
 ingested: "2026-09-22"
 class: "pmaLinkRecord"
 ---
 
-<span id="shares"></span>**shares**
+<span id="_shares"></span>**\_shares**
 
 > **Synopsis:**
 >
-> > Holding shares
+> > Holding \_shares
 >
 > **Description:**
 >
-> > Shares (or unit amount) of recipient's 'security' held by recipient's 'account' on recipient's date, adjusted for splits.
+> > Actual shares held by account in security on date.
 >
-> **Type:** Method          **Function:** Data          **Level:** Basic
+> **Type:** FixedProperty          **Function:** Data          **Level:** Basic
 >
 > **Returns:** [Number](../../classes/clNumber.md)
 

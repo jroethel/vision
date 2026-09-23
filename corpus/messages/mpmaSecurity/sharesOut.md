@@ -1,20 +1,20 @@
 ---
-provenance: "docs/original/mpmaSecurity.htm#sharesOut"
+provenance: "docs/original/mpmaSecurity.htm#_sharesOut"
 unit_type: "message"
-title: "sharesOut"
+title: "_sharesOut"
 ingested: "2026-09-22"
 class: "pmaSecurity"
 ---
 
-<span id="sharesOut"></span>**sharesOut**
+<span id="_sharesOut"></span>**\_sharesOut**
 
 > **Synopsis:**
 >
-> > Security sharesOut
+> > Security \_sharesOut
 >
 > **Description:**
 >
-> > Latest shares outstanding on or before ^date (adjusted for splits).
+> > Shares outstanding (unadjusted for splits).
 >
 > **Type:** Method (time varying)          **Function:** Data          **Level:** Basic
 >

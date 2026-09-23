@@ -1,0 +1,28 @@
+---
+provenance: "docs/original/mString.htm#="
+unit_type: "message"
+title: "="
+ingested: "2026-09-22"
+class: "String"
+---
+
+<span id="="></span>**=**
+
+> **Synopsis:**
+>
+> > String = aString
+>
+> **Description:**
+>
+> > Tests if supplied string contains the identical sequence as the recipient String. Two strings are NOT identical if one has extra blanks at the beginning or end. Upper and lower case letters are NOT identical.
+>
+> **Type:** Primitive          **Returns:** [Boolean](../../classes/clBoolean.md)
+>
+> **Parameters:**
+>
+> > 1 - String  
+>
+> **Also Defined At:**  
+> \| [Date](../mDate/op-43ec3e.md) \| [DateRange](../mDate/op-43ec3e.md) \| [Object](../mObject/op-43ec3e.md) \|
+
+<img src="instdot.gif" data-align="middle" alt="o " />

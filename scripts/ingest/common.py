@@ -36,15 +36,29 @@ _slug_owner: dict[str, str] = {}
 
 
 def slug(anchor: str) -> str:
-    """Filesystem-safe stem: [A-Za-z0-9_] passes through, everything else -> '_'.
-    Empty results and collisions get a short hex suffix of the original so
-    distinct anchors never share a filename; the verbatim anchor always lives
-    in the unit title and the anchor registry."""
-    base = re.sub(r"[^A-Za-z0-9_]", "_", anchor)
-    if not base or (_slug_owner.get(base) not in (None, anchor)):
-        base += "_" + hashlib.md5(anchor.encode("utf-8")).hexdigest()[:6]
+    """qmd-native stem: ASCII [A-Za-z0-9] passes through, every other run
+    (':', '_', '>', '!=', ',', spaces...) becomes a single '-', and
+    leading/trailing '-' are stripped. An empty result (pure-symbol anchor
+    like '==' or '!=') becomes 'op-' + a short md5 of the anchor; a stem
+    already claimed by a different anchor gets '-' + the same short md5 so
+    distinct anchors never share a filename; the verbatim anchor always
+    lives in the unit title and the anchor registry."""
+    base = re.sub(r"[^A-Za-z0-9]+", "-", anchor).strip("-")
+    if not base:
+        base = "op-" + hashlib.md5(anchor.encode("utf-8")).hexdigest()[:6]
+    elif _slug_owner.get(base) not in (None, anchor):
+        base += "-" + hashlib.md5(anchor.encode("utf-8")).hexdigest()[:6]
     _slug_owner[base] = anchor
     return base
+
+
+def safe_stem(name: str) -> str:
+    """Same qmd-native sanitizer for source-derived filename stems (no
+    collision registry): 'pma_AnalystEst' -> 'pma-AnalystEst',
+    'pmafaq_altInd' -> 'pmafaq-altInd', 'clObject' -> 'clObject'. An empty
+    result (pure-symbol name) becomes 'op-' + a short md5 of the name."""
+    base = re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-")
+    return base or "op-" + hashlib.md5(name.encode("utf-8")).hexdigest()[:6]
 
 
 def render_frontmatter(unit: Unit) -> str:
