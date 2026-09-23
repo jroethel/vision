@@ -1,0 +1,27 @@
+---
+provenance: "docs/original/mpmaClassify.htm#getRecordForUser:"
+unit_type: "message"
+title: "getRecordForUser:"
+ingested: "2026-09-22"
+class: "pmaClassify"
+---
+
+<span id="getRecordForUser:"></span>**getRecordForUser:**
+
+> **Synopsis:**
+>
+> > Entity getRecordForUser: userName
+>
+> **Description:**
+>
+> > Returns private data extension for recipient maintained by specified user.
+>
+> **Type:** Method          **Function:** Access          **Level:** Advanced
+>
+> **Returns:** [PrivateRecord](admUpdat.htm)
+>
+> **Parameters:**
+>
+> > 1 - String  
+
+<img src="instdot.gif" data-align="middle" data-border="0" alt="o " />

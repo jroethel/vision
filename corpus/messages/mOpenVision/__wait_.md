@@ -1,0 +1,17 @@
+---
+provenance: "docs/original/mOpenVision.htm#__wait:"
+unit_type: "message"
+title: "__wait:"
+ingested: "2026-09-22"
+class: "OpenVision"
+---
+
+<span id="__wait:"></span>**\_\_wait:**
+
+> **Synopsis:**
+>
+> > OpenVision Channel \_\_wait:
+>
+> **Type:** Primitive          **Returns:** [Object](../../classes/clObject.md)
+
+<img src="instdot.gif" data-align="middle" alt="o " />
