@@ -1,0 +1,15 @@
+# Vision superexpert: ensure the qmd index is current, then boot Claude Code in the vision repo
+# with the vision-expert skill. Normal permission prompting (safe default).
+vision *args:
+    #!/usr/bin/env bash
+    cd ~/create/vision
+    bash scripts/ensure-index.sh
+    exec claude "$@"
+
+# Same, but with permission prompts disabled - opt-in, unattended. Blast radius: this repo
+# contains live production scripts and C++ source, so use only when the session is known safe.
+vision-auto *args:
+    #!/usr/bin/env bash
+    cd ~/create/vision
+    bash scripts/ensure-index.sh
+    exec claude --dangerously-skip-permissions "$@"

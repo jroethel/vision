@@ -1,0 +1,28 @@
+---
+provenance: "docs/original/mDate.htm#="
+unit_type: "message"
+title: "="
+ingested: "2026-09-22"
+class: "Date"
+---
+
+<span id="="></span>**=**
+
+> **Synopsis:**
+>
+> > Date = aDate
+>
+> **Description:**
+>
+> > Tests if recipient date is the same as the supplied date.
+>
+> **Type:** Method          **Returns:** [Boolean](../../classes/clBoolean.md)
+>
+> **Parameters:**
+>
+> > 1 - Date  
+>
+> **Also Defined At:**  
+> \| [Object](../mObject/op-43ec3e.md) \| [String](../mString/op-43ec3e.md) \|
+
+<img src="instdot.gif" data-align="middle" alt="o " />
