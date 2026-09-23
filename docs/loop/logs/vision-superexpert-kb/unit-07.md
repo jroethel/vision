@@ -43,3 +43,13 @@ Verified after the reset: `docs/plans/`, `corpus/{feeds,reports,status,classes,m
 
 None blocking.
 One note: the smoke answer cited the overflow chunk (`pma-AnalystEst/3.md`, which holds the field table) rather than the first-chunk file (`pma-AnalystEst.md`, which holds the frontmatter) - both are valid `corpus/` citations for this claim, and `reference/corpus-map.md` documents the shred convention so a reader can find the sibling first chunk if needed.
+
+## Ground-truth fix (reopened after two failed validations)
+
+Two downstream validations failed because `reference/ground-truth.md` labeled `asQuarterEnd`/`quarterEnds` as "Verified" in `software/src/master/src/backend/PFdate.cpp`, and `grep -rl asQuarterEnd software/src` finds nothing there.
+The owner amended the plan's ground-truth rule: live source has two layers, the bootstrap protocol `application/localvision/bootstrap/protocol/originals/` defines messages (`*.bi`) and properties/feed fields (`*.idemo`, `EXTiface.feeds`), and `software/src/<version>/src/` holds only the C++ primitives those messages bind to.
+Reconfirmed this session with `grep`/`sed`, none from memory: `Date.bi:231` defines `asQuarterEnd`, `Integer.bi:132` defines the `quarterEnds` message it calls, `PropertySetup.idemo:105` defines `nextQuarterEnd`, and `Offset.bi:105` binds primitive 317 (`ByQuarterEndsIncrementDate`) to `software/src/master/src/backend/PFdate.cpp:545` (`ByQuarterEndsDecrementDate` at line 579).
+Also reconfirmed the pre-existing "Verified" claims: `EXTiface.feeds:496` (`AnalystEstimateRecord` reference), the ivr top-level layout (`order.ivr`, `INITpatch.ivr`), `source/{benchmark,datafeed,ivr,misc,order.vis}`, and `testkit/{doc,lib,scripts,test}` with `testkit/scripts/{buildBaseline,checkProposed,diffProposed,diffProposedClasses,runAllTests}`.
+Rewrote `SKILL.md` and `reference/ground-truth.md` so Step 2 checks the bootstrap protocol first and the C++ primitives second, with every verified claim pointing at a location confirmed this session.
+Also fixed a smaller inaccuracy in `SKILL.md` and `reference/corpus-map.md`: the real underscore feed name lives in a unit's `provenance` field, not `title`.
+`title` is the document's own heading, confirmed against `corpus/feeds/pma-AnalystEst.md` frontmatter (`title: "Vision Upload Format: AnalystEst "`).

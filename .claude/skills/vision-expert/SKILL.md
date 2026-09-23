@@ -21,7 +21,8 @@ The corpus is indexed in a machine-local qmd 2.5.3 collection named `vision`.
 Large docs are shredded: the first chunk lives at `<family>/<stem>.md`, overflow chunks at `<family>/<stem>/<n>.md`.
 
 **Name mapping (important):** qmd corpus paths are qmd-native and never use underscores, so the source `pma_AnalystEst.htm` is indexed at `corpus/feeds/pma-AnalystEst.md` (dash, not underscore).
-The real Vision name is preserved in each unit's frontmatter as `title` and `provenance` (for example `provenance: "docs/original/pma_AnalystEst.htm"`).
+The real Vision name is preserved in each unit's frontmatter as `provenance` (for example `provenance: "docs/original/pma_AnalystEst.htm"`).
+`title` is the document's own heading, not the underscore name (for example `title: "Vision Upload Format: AnalystEst "`).
 Always answer with the real name (`pma_AnalystEst`) and cite the on-disk path (`corpus/feeds/pma-AnalystEst.md`) - never invent an underscore path, and never rename the real feed to match the path.
 
 See `reference/corpus-map.md` for the fuller map: family counts, provenance scheme, and the `ingested` as-of date.
@@ -44,5 +45,7 @@ Any multi-file sweep (scanning many corpus units, e.g. "list every feed with a D
 ## Ground-truth rule
 
 Every schema or feed claim pulled from the corpus is **unverified-as-of-retrieval**.
-Before committing any feed or schema change based on a corpus claim, recheck it against live source (`software/src/`) or the ivr testkit (`software/testtools/ivr/`).
+Live source and the ivr testkit are ground truth, and a retrieved schema or feed claim stays unverified-as-of-retrieval until checked against them before any feed or schema commit.
+Live source has two layers: the bootstrap protocol `application/localvision/bootstrap/protocol/originals/` defines messages, properties, and feed fields, and `software/src/<version>/src/` holds only the C++ primitives those messages bind to.
+Check the bootstrap protocol first, the C++ primitives in `software/src/` second, or the ivr testkit (`software/testtools/ivr/`) before any feed or schema commit.
 See `reference/ground-truth.md` for the concrete recheck loop, and `reference/roles.md` for who is trusted to act on which kind of claim.

@@ -33,7 +33,8 @@ Every unit's frontmatter carries:
 
 qmd corpus paths are qmd-native and never use underscores.
 The source `pma_AnalystEst.htm` is indexed at `corpus/feeds/pma-AnalystEst.md` (dash).
-When answering, always use the real underscore name from `title`/`provenance` (`pma_AnalystEst`) and cite the dash path (`corpus/feeds/pma-AnalystEst.md`) as the corpus location.
+When answering, always use the real underscore name from `provenance` (`pma_AnalystEst`) and cite the dash path (`corpus/feeds/pma-AnalystEst.md`) as the corpus location.
+`title` is the document's own heading (e.g. `"Vision Upload Format: AnalystEst "`), not the underscore name - do not read the real name off it.
 Never merge the two, and never present the dash form as the Vision name.
 
 ## Shred convention
