@@ -15,8 +15,8 @@ def main():
     # nextQuarterEnd is defined by exactly one feed, pma_AnalystEst, type Date (verified 2026-09-21
     # by grep: `grep -l nextQuarterEnd docs/original/pma_*.htm` returns only pma_AnalystEst.htm).
     # Assert the type AT the field's own row, not "Date" anywhere in the body.
-    est = pathlib.Path("corpus/feeds/pma_AnalystEst.md")
-    assert est.exists(), "pma_AnalystEst feed unit missing"
+    est = pathlib.Path("corpus/feeds/pma-AnalystEst.md")  # qmd-native stem (source pma_AnalystEst.htm)
+    assert est.exists(), "pma-AnalystEst feed unit missing"
     fm, body = parse_frontmatter(est.read_text(encoding="utf-8"))
     fields = {f["name"]: f["type"] for f in fm.get("fields", [])}
     assert fields.get("nextQuarterEnd") == "Date", \
