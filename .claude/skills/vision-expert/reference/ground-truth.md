@@ -19,7 +19,9 @@ Where "live source" is depends on what kind of unit it is - verify with `ls` rat
   Verified: `mDate`/`mNumber` quarter-end primitives (`asQuarterEnd`, `quarterEnds`) are implemented in `software/src/master/src/backend/PFdate.cpp` (string literals `ByQuarterEndsIncrementDate`, `ByQuarterEndsDecrementDate`), not in `software/src/master/src/kernel/`.
   `software/src/` has three version trees: `8.0`, `8.1`, `master` - match the corpus claim's era to the right one if it matters.
 - **Behavior claims** (does a message actually do what the doc says) are exercised by the ivr testkit at `software/testtools/ivr/`.
-  Verified layout: `software/testtools/ivr/order.ivr` and `software/testtools/ivr/INITpatch.ivr` are top-level fixture scripts; `software/testtools/ivr/source/` holds `doc/`, `lib/`, `scripts/`, `test/`; `software/testtools/ivr/testkit/scripts/` holds `buildBaseline`, `checkProposed`, `diffProposed`, `diffProposedClasses`, `runAllTests`.
+  Verified layout: `software/testtools/ivr/order.ivr` and `software/testtools/ivr/INITpatch.ivr` are top-level fixture scripts.
+  `software/testtools/ivr/source/` holds `benchmark/`, `datafeed/`, `ivr/`, `misc/`, and `order.vis`.
+  `software/testtools/ivr/testkit/` holds `doc/`, `lib/`, `scripts/`, and `test/` - `testkit/scripts/` holds `buildBaseline`, `checkProposed`, `diffProposed`, `diffProposedClasses`, `runAllTests`.
 
 ## Step 3: confirm the claim
 

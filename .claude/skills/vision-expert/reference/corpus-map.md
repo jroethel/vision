@@ -18,7 +18,8 @@ Counts below are unit files (`*.md`), computed with `find corpus/<family> -name 
 | `corpus/general/` | Everything else                                          |   984 |
 | **Total**         |                                                           |  4969 |
 
-`corpus/learnings/` does not exist yet in this snapshot; it is added by a later build task for promoted, human-reviewed learnings.
+`corpus/learnings/` does not exist yet in this snapshot.
+It is added by a later build task for promoted, human-reviewed learnings.
 
 ## Provenance and name mapping
 

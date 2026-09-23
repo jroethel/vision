@@ -16,7 +16,7 @@ The corpus is indexed in a machine-local qmd 2.5.3 collection named `vision`.
 - `corpus/classes/` - `cl*` class docs (hierarchy, superclasses, properties).
 - `corpus/messages/` - `m*` message docs, one unit per message anchor, grouped by class directory (for example `messages/mDate/asQuarterEnd.md`), plus `messages/mXRef`.
 - `corpus/general/` - everything else.
-- `corpus/learnings/` - promoted, human-reviewed learnings (added by a later build task; may not exist yet).
+- `corpus/learnings/` - promoted, human-reviewed learnings (added by a later build task, may not exist yet).
 
 Large docs are shredded: the first chunk lives at `<family>/<stem>.md`, overflow chunks at `<family>/<stem>/<n>.md`.
 
