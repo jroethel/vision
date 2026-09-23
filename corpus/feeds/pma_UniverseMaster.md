@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *UniverseMaster* feed is used to create and refresh basic information for **Universe** instances. A **Universe** is used to name and track lists of related entities over time. This class is described in detail in the [*Vision Class: Universe*](clUniverse.htm) document. A number of [related feeds](#related%20feeds) are also available.
+- The *UniverseMaster* feed is used to create and refresh basic information for **Universe** instances. A **Universe** is used to name and track lists of related entities over time. This class is described in detail in the [*Vision Class: Universe*](../classes/clUniverse.md) document. A number of [related feeds](#related%20feeds) are also available.
 
 ## Available Fields:
 

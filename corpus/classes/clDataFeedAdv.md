@@ -26,6 +26,6 @@ This example loads data using the **CurrencyMaster** feed. This feed will create
 
 The message *updateFromString:* can be sent to any **DataFeed** subclass to update data from the string supplied as a parameter. Alternatively, the message *loadFromFile:* can be sent to any **DataFeed** subclass to read the data from the file name supplied as a parameter.
 
-The document [*Vision Class: DataFeed*](clDataFeed.md) provides a detailed description of the **DataFeed class**. A number of specialized interfaces have been defined that package feeds for [batch processing](admBatch.htm#Updating). This document provides additional advanced techniques for working with the feeds through the use of examples. If you need additional assistance implementing some of these techniques in your environment, contact your Insyte consultant.
+The document [*Vision Class: DataFeed*](clDataFeed.md) provides a detailed description of the **DataFeed class**. A number of specialized interfaces have been defined that package feeds for [batch processing](../general/admBatch/3.md). This document provides additional advanced techniques for working with the feeds through the use of examples. If you need additional assistance implementing some of these techniques in your environment, contact your Insyte consultant.
 
 ------------------------------------------------------------------------

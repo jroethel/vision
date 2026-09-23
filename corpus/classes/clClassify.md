@@ -27,7 +27,7 @@ The class Classification is used to unify all the protocol that is common to cla
 
 ## Basic Usage
 
-The standard messages are used to create new [subclasses](clEntity/5.md), [instances](clEntity/6.md), and [messages](Messages.htm) for the Classification subclasses. For example, to define a new subclass and some instances representing countries and a property that links specific currencies to specific countries, use the following:
+The standard messages are used to create new [subclasses](clEntity/5.md), [instances](clEntity/6.md), and [messages](../general/Messages.md) for the Classification subclasses. For example, to define a new subclass and some instances representing countries and a property that links specific currencies to specific countries, use the following:
 
       #--  Define the new class and some instances
       Classification createSubclass: "Country" ;

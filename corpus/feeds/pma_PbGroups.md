@@ -9,7 +9,7 @@ fields: [{"name": "startValue", "property": "lowerBound", "type": "Number", "des
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 

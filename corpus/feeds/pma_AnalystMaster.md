@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 

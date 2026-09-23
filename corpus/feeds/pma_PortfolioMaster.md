@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *PortfolioMaster* feed is used to create and refresh basic information for **Portfolio** instances. Portfolios usually represent real accounts whose holdings are supplied from an accounting system. The **Portfolio** class is described in detail in the [*Portfolio Management Application Classes*](clpmaAccount.htm#portfolio) document. A number of [related fields](#related%20feeds) are available to create **Portfolio** holdings and to update other account-based information.
+- The *PortfolioMaster* feed is used to create and refresh basic information for **Portfolio** instances. Portfolios usually represent real accounts whose holdings are supplied from an accounting system. The **Portfolio** class is described in detail in the [*Portfolio Management Application Classes*](../classes/clpmaAccount/8.md) document. A number of [related fields](#related%20feeds) are available to create **Portfolio** holdings and to update other account-based information.
 
 ## Available Fields:
 

@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *CurrencyMaster* feed is used to create and refresh basic information for **Currency** instances. Instances of this class represent currencies in which monetary transactions are performed. The **Currency** class is described in detail in the [*Vision Class: Currency*](clCurrency.htm) document. A number of [related feeds](#related%20feeds) are also available.
+- The *CurrencyMaster* feed is used to create and refresh basic information for **Currency** instances. Instances of this class represent currencies in which monetary transactions are performed. The **Currency** class is described in detail in the [*Vision Class: Currency*](../classes/clCurrency.md) document. A number of [related feeds](#related%20feeds) are also available.
 
 ## Available Fields:
 
@@ -38,7 +38,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Special Processing Rules:
 
-- Monetary values are sometimes expressed as a fraction or multiple of a base currency. For example, data may be expressed in pence instead of pounds. When you define a currency such as *pence*, you also want to establish a relationship to its parent currency, the *pound*. The *underlyingCurrency* field is used to define the parent currency. The *conversion* field is used to specify the unit of exchange needed to covert the currency to its parent. In the *pence-to-pound* scenario, this value would be 100 (100 pence to the pound). Exchange rate information is only maintained for the parent currency. See [*Creating Related Currencies*](clCurrency.htm#related) for more information.
+- Monetary values are sometimes expressed as a fraction or multiple of a base currency. For example, data may be expressed in pence instead of pounds. When you define a currency such as *pence*, you also want to establish a relationship to its parent currency, the *pound*. The *underlyingCurrency* field is used to define the parent currency. The *conversion* field is used to specify the unit of exchange needed to covert the currency to its parent. In the *pence-to-pound* scenario, this value would be 100 (100 pence to the pound). Exchange rate information is only maintained for the parent currency. See [*Creating Related Currencies*](../classes/clCurrency/3.md) for more information.
 
 <span id="related feeds"></span>
 

@@ -7,7 +7,7 @@ ingested: "2026-09-22"
 
 ## Vision Class: Block
 
-\| [Home](vconcep.htm) \| [Classes](Classes.htm) \| [Messages](Messages.htm) \|
+\| [Home](../general/vconcep.md) \| [Classes](../general/Classes.md) \| [Messages](../general/Messages.md) \|
 
 ------------------------------------------------------------------------
 

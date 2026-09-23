@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "entity", "type": "String", "desc": "a
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "entity", "type": "String", "desc": "a
 
 ## Summary:
 
-- The *DivFeed* feed is used to create and update **DivRecord** instances for securities. This feed can include data for any number of securities for any number of dates. This class is used to track cash dividends paid by a security over time. The **DivRecord** class is described in detail in the [*Portfolio Management Application Issues*](pmaIssues.htm#prices) document.
+- The *DivFeed* feed is used to create and update **DivRecord** instances for securities. This feed can include data for any number of securities for any number of dates. This class is used to track cash dividends paid by a security over time. The **DivRecord** class is described in detail in the [*Portfolio Management Application Issues*](../general/pmaIssues/3.md) document.
 
 ## Available Fields:
 

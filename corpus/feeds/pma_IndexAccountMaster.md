@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *IndexAccountMaster* feed is used to create and refresh basic information for **IndexAccount** instances. An index account is an **Account** whose holdings are created starting with a list of securities that can be explicitly provided or derived from a **Universe**. The **IndexAccount** class is described in detail in the [*Portfolio Management Application Classes*](clpmaAccount.htm#index) document. A number of [related feeds](#related%20feeds) are available to update and derive **IndexAccount** holdings and to update other account-based information.
+- The *IndexAccountMaster* feed is used to create and refresh basic information for **IndexAccount** instances. An index account is an **Account** whose holdings are created starting with a list of securities that can be explicitly provided or derived from a **Universe**. The **IndexAccount** class is described in detail in the [*Portfolio Management Application Classes*](../classes/clpmaAccount/12.md) document. A number of [related feeds](#related%20feeds) are available to update and derive **IndexAccount** holdings and to update other account-based information.
 
 ## Available Fields:
 

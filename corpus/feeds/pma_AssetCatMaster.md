@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *AssetCatMaster* feed is used to create and refresh basic information for **AssetCategory** instances. This class is described in more detail in the [*Portfolio Management Application Classes*](clpmaCompany.htm#related) document.
+- The *AssetCatMaster* feed is used to create and refresh basic information for **AssetCategory** instances. This class is described in more detail in the [*Portfolio Management Application Classes*](../classes/clpmaCompany/9.md) document.
 
 ## Available Fields:
 

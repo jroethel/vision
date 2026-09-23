@@ -10,7 +10,7 @@ ingested: "2026-09-22"
 [**\>= aValue**](../mNA/___3a1e9b.md) -- Constant in class [Undefined](../../classes/clNA.md)  
 **\>= object** -- Method in class Utility UnixSeconds  
 **\_POP** -- Constant in class AdminTools  
-[**\_\_ActiveChannel**](../mOpenVision/__ActiveChannel.md) -- Primitive in class [OpenVision](tkOpenVision.htm)  
+[**\_\_ActiveChannel**](../mOpenVision/__ActiveChannel.md) -- Primitive in class [OpenVision](../../general/tkOpenVision.md)  
 **\_\_acceptConnection** -- Primitive in class OpenVision Channel  
 **\_\_asOpenVisionChannel** -- Primitive in class Integer  
 [**\_\_asOpenVisionChannel**](../mString/__asOpenVisionChannel.md) -- Primitive in class [String](../../classes/clString.md)  

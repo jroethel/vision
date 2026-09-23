@@ -16,7 +16,7 @@ class: "OpenVision"
 >
 > > Returns the default instance for the recipient's class.
 >
-> **Type:** Constant          **Returns:** [OpenVision](tkOpenVision.htm)
+> **Type:** Constant          **Returns:** [OpenVision](../../general/tkOpenVision.md)
 >
 > **Also Defined At:**  
 > \| [Block](../mBlock/defaultInstance.md) \| [Boolean](../mBoolean/defaultInstance.md) \| [Classification](../mClassify/defaultInstance.md) \| [Collection](../mCollect/defaultInstance.md) \| [Currency](../mCurrency/defaultInstance.md) \| [Date](../mDate/defaultInstance.md) \| [DateOffset](../mOffset/defaultInstance.md) \| [DateRange](../mDate/defaultInstance.md) \| [Dictionary](../mDict/defaultInstance.md) \| [Entity](../mEntity/defaultInstance.md) \| [IndexedList](../mIList/defaultInstance.md) \| [Interface](../mInterface/defaultInstance.md) \| [List](../mList/defaultInstance.md) \| [Number](../mNumber/defaultInstance.md) \| [Schema](../mSchema/defaultInstance.md) \| [String](../mString/defaultInstance.md) \| [TimeSeries](../mTS/defaultInstance.md) \| [Undefined](../mNA/defaultInstance.md) \| [Utility](../mUtil/defaultInstance.md) \|

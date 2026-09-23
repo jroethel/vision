@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *IdSourceMaster* feed is used to create and refresh basic information for **IdSource** instances. **IdSources** are used to define standard sources of entity identification schemas. Alternative identifiers are stored in [cross reference dictionaries (*XRef's*)](clDict.htm#xref) defined for an **Entity** class. XRef's provide a convenient way to track identifiers that are uniquely assigned by a specific source but may overlap with identifiers assigned by other sources.
+- The *IdSourceMaster* feed is used to create and refresh basic information for **IdSource** instances. **IdSources** are used to define standard sources of entity identification schemas. Alternative identifiers are stored in [cross reference dictionaries (*XRef's*)](../classes/clDict/5.md) defined for an **Entity** class. XRef's provide a convenient way to track identifiers that are uniquely assigned by a specific source but may overlap with identifiers assigned by other sources.
 
 ## Available Fields:
 

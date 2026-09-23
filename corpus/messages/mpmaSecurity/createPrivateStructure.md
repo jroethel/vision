@@ -18,6 +18,6 @@ class: "pmaSecurity"
 >
 > **Type:** Method          **Function:** Schema          **Level:** DBA
 >
-> **Returns:** [PrivateRecord](admUpdat.htm)
+> **Returns:** [PrivateRecord](../../general/admUpdat.md)
 
 <img src="instdot.gif" data-align="middle" data-border="0" alt="o " />

@@ -9,7 +9,7 @@ fields: [{"name": "acctId", "property": "account", "type": "String", "desc": "id
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 

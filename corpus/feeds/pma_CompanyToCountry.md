@@ -9,7 +9,7 @@ fields: [{"name": "groupId", "property": "", "type": "String", "desc": "id of ex
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 

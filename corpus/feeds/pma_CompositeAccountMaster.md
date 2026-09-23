@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *CompositeAccountMaster* feed is used to create and refresh basic information for **CompositeAccount** instances. A composite account is an **Account** whose holdings are created as a weighted combination of the holdings in the set of Portfolio, IndexAccount, IndexAccount, and/or other CompositeAccount instances that make up a composite over time. The **CompositeAccount** class is described in detail in the [*Portfolio Management Application Classes*](clpmaAccount.htm#composite) document. A number of [related feeds](#related%20feeds) are available to specify **CompositeAccount** membership weights and to update other account-based information.
+- The *CompositeAccountMaster* feed is used to create and refresh basic information for **CompositeAccount** instances. A composite account is an **Account** whose holdings are created as a weighted combination of the holdings in the set of Portfolio, IndexAccount, IndexAccount, and/or other CompositeAccount instances that make up a composite over time. The **CompositeAccount** class is described in detail in the [*Portfolio Management Application Classes*](../classes/clpmaAccount/14.md) document. A number of [related feeds](#related%20feeds) are available to specify **CompositeAccount** membership weights and to update other account-based information.
 
 ## Available Fields:
 

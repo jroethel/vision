@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "", "type": "String", "desc": "any val
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "", "type": "String", "desc": "any val
 
 ## Summary:
 
-- The *SecurityXRef* feed is used to load alternative identifiers for a **Security**. Alternative identifiers are stored in [cross reference dictionaries (*XRef's*](clDict.htm#xref)) defined for the **Security** class. XRef's provide a convenient way to track identifiers that are uniquely assigned by a specific source but may overlap with identifiers assigned by other sources. Depending on the source, this feed may also update the identifier in the primary naming dictionary as well. The related feed, [*Security Aliases*](pma_SecurityAliases.md), adds ids to the primary naming dictionary only.
+- The *SecurityXRef* feed is used to load alternative identifiers for a **Security**. Alternative identifiers are stored in [cross reference dictionaries (*XRef's*](../classes/clDict/5.md)) defined for the **Security** class. XRef's provide a convenient way to track identifiers that are uniquely assigned by a specific source but may overlap with identifiers assigned by other sources. Depending on the source, this feed may also update the identifier in the primary naming dictionary as well. The related feed, [*Security Aliases*](pma_SecurityAliases.md), adds ids to the primary naming dictionary only.
 
 ## Available Fields:
 

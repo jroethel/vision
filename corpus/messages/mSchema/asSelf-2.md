@@ -16,7 +16,7 @@ class: "Schema"
 >
 > > Returns the default Schema object, stripped of any extensions.
 >
-> **Type:** Primitive          **Returns:** [Schema](tkSchema.htm)
+> **Type:** Primitive          **Returns:** [Schema](../../general/tkSchema.md)
 >
 > **Also Defined At:**  
 > \| [Block](../mBlock/asSelf.md) \| [Boolean](../mBoolean/asSelf.md) \| [Classification](../mClassify/asSelf.md) \| [Collection](../mCollect/asSelf.md) \| [Currency](../mCurrency/asSelf.md) \| [Date](../mDate/asSelf.md) \| [DateOffset](../mOffset/asSelf.md) \| [DateRange](../mDate/asSelf.md) \| [Dictionary](../mDict/asSelf.md) \| [Entity](../mEntity/asSelf.md) \| [IndexedList](../mIList/asSelf.md) \| [Interface](../mInterface/asSelf.md) \| [List](../mList/asSelf.md) \| [Number](../mNumber/asSelf.md) \| [Object](../mObject/asSelf.md) \| [OpenVision](../mOpenVision/asSelf.md) \| [String](../mString/asSelf.md) \| [TimeSeries](../mTS/asSelf.md) \| [Undefined](../mNA/asSelf.md) \| [Utility](../mUtil/asSelf.md) \|

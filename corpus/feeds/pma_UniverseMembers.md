@@ -9,7 +9,7 @@ fields: [{"name": "groupId", "property": "", "type": "String", "desc": "id of ex
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ fields: [{"name": "groupId", "property": "", "type": "String", "desc": "id of ex
 
 - The *UniverseMembers* feed is used to define the member **Entities** in a **Universe** over time. The records supplied by this feed are used to update the **Universe** time series property *list*.
 
-  This class is described in detail in the [*Vision Class: Universe*](clUniverse.htm) document.
+  This class is described in detail in the [*Vision Class: Universe*](../classes/clUniverse.md) document.
 
 ## Available Fields:
 

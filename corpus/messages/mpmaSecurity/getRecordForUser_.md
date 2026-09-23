@@ -18,7 +18,7 @@ class: "pmaSecurity"
 >
 > **Type:** Method          **Function:** Access          **Level:** Advanced
 >
-> **Returns:** [PrivateRecord](admUpdat.htm)
+> **Returns:** [PrivateRecord](../../general/admUpdat.md)
 >
 > **Parameters:**
 >

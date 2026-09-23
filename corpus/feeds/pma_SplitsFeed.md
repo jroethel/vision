@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "-", "type": "String", "desc": "any va
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "-", "type": "String", "desc": "any va
 
 ## Summary:
 
-- The *SplitsFeed* feed is used to maintain the split adjustment history for securities. Split management is described in detail in the [*Portfolio Management Application Issues*](pmaIssues.htm#splits) document.
+- The *SplitsFeed* feed is used to maintain the split adjustment history for securities. Split management is described in detail in the [*Portfolio Management Application Issues*](../general/pmaIssues/2.md) document.
 
 ## Available Fields:
 

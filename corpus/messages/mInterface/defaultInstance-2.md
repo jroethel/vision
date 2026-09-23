@@ -16,7 +16,7 @@ class: "Interface"
 >
 > > Returns the default instance for the recipient's class.
 >
-> **Type:** Constant          **Returns:** [Interface](tkInterface.htm)
+> **Type:** Constant          **Returns:** [Interface](../../general/tkInterface.md)
 >
 > **Also Defined At:**  
 > \| [Block](../mBlock/defaultInstance.md) \| [Boolean](../mBoolean/defaultInstance.md) \| [Classification](../mClassify/defaultInstance.md) \| [Collection](../mCollect/defaultInstance.md) \| [Currency](../mCurrency/defaultInstance.md) \| [Date](../mDate/defaultInstance.md) \| [DateOffset](../mOffset/defaultInstance.md) \| [DateRange](../mDate/defaultInstance.md) \| [Dictionary](../mDict/defaultInstance.md) \| [Entity](../mEntity/defaultInstance.md) \| [IndexedList](../mIList/defaultInstance.md) \| [List](../mList/defaultInstance.md) \| [Number](../mNumber/defaultInstance.md) \| [OpenVision](../mOpenVision/defaultInstance.md) \| [Schema](../mSchema/defaultInstance.md) \| [String](../mString/defaultInstance.md) \| [TimeSeries](../mTS/defaultInstance.md) \| [Undefined](../mNA/defaultInstance.md) \| [Utility](../mUtil/defaultInstance.md) \|

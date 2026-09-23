@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *AggAccountMaster* feed is used to create and refresh basic information for **AggAccount** instances. An aggregate account is an **Account** whose holdings are created by combining the holdings for a list of member portfolios. The **AggAccount** class is described in detail in the [*Portfolio Management Application Classes*](clpmaAccount.htm#agg) document. A number of [related feeds](#related%20feeds) are available to specify **AggAccount** memberships and to update other account-based information.
+- The *AggAccountMaster* feed is used to create and refresh basic information for **AggAccount** instances. An aggregate account is an **Account** whose holdings are created by combining the holdings for a list of member portfolios. The **AggAccount** class is described in detail in the [*Portfolio Management Application Classes*](../classes/clpmaAccount/10.md) document. A number of [related feeds](#related%20feeds) are available to specify **AggAccount** memberships and to update other account-based information.
 
 ## Available Fields:
 

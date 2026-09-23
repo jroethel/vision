@@ -97,11 +97,11 @@ DataFeed
 
 Description
 
-[UniverseMaster](pma_UniverseMaster.htm)
+[UniverseMaster](../feeds/pma_UniverseMaster.md)
 
 creates **Universe** instances and refreshes basic properties
 
-[UniverseMembers](pma_UniverseMembers.htm)
+[UniverseMembers](../feeds/pma_UniverseMembers.md)
 
 updates memberships for universes over time
 

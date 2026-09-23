@@ -9,7 +9,7 @@ fields: [{"name": "entityId", "property": "-", "type": "String", "desc": "any va
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ fields: [{"name": "entityId", "property": "-", "type": "String", "desc": "any va
 
 - The *ExchangeRateFeed* feed is used to update currency exchange rates over time. The time series *usExchange* tracks daily exchange rates to convert a specific currency into US Dollars. Exchange rates are stored as the number of foreign currency units that are equivalent to one US Dollar.
 
-  The **Currency** class and currency conversions are described in detail in the [*Vision Class: Currency*](clCurrency.htm) document.
+  The **Currency** class and currency conversions are described in detail in the [*Vision Class: Currency*](../classes/clCurrency.md) document.
 
 ## Available Fields:
 

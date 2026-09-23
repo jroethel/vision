@@ -9,7 +9,7 @@ fields: [{"name": "alias1", "property": "", "type": "String", "desc": "any valid
 
 ## Vision Portfolio Management Application Layer: Data Feeds
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ fields: [{"name": "alias1", "property": "", "type": "String", "desc": "any valid
 
 ## Summary:
 
-- The *SecurityAliases* feed is used to load cusip/sedol changes for a security as well as any other desired aliases. Alias management is described in detail in the [*Portfolio Management Application Issues*](pmaIssues.htm#ids) document.
+- The *SecurityAliases* feed is used to load cusip/sedol changes for a security as well as any other desired aliases. Alias management is described in detail in the [*Portfolio Management Application Issues*](../general/pmaIssues/7.md) document.
 
 ## Available Fields:
 

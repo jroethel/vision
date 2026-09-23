@@ -7,7 +7,7 @@ entity: "Vision"
 fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id of new or existing Company instance"}, {"name": "currencyId", "property": "baseCurrency", "type": "String", "desc": "id of existing [Currency](pma_CurrencyMaster.md) instance", "ref": "pma_CurrencyMaster"}, {"name": "name", "property": "name", "type": "String", "desc": "descriptive name"}, {"name": "analyst", "property": "analyst", "type": "String", "desc": "id of existing [Analyst](pma_AnalystMaster.md) instance", "ref": "pma_AnalystMaster"}, {"name": "country", "property": "country", "type": "String", "desc": "id of existing [Country](pma_CountryMaster.md) instance", "ref": "pma_CountryMaster"}, {"name": "fiscalYearEnd", "property": "fiscalYearEnd", "type": "Integer", "desc": "fiscal year end month"}, {"name": "industry", "property": "industry", "type": "String", "desc": "id of existing [Industry](pma_IndustryMaster.md) instance", "ref": "pma_IndustryMaster"}, {"name": "primaryCompany", "property": "_primaryCompany", "type": "String", "desc": "id of parent company"}, {"name": "shortName", "property": "shortName", "type": "String", "desc": "short name"}, {"name": "sortCode", "property": "sortCode", "type": "String", "desc": "sort code"}]
 ---
 
-\| [Application Feeds](pmaFeeds.htm) \|
+\| [Application Feeds](../general/pmaFeeds.md) \|
 
 ------------------------------------------------------------------------
 
@@ -17,7 +17,7 @@ fields: [{"name": "entityId", "property": "code", "type": "String", "desc": "id 
 
 ## Summary:
 
-- The *CompanyMaster* feed is used to create and refresh basic information for **Company** instances. Companies represent the actual corporate entity. One or more **Security** instances may be associated with a specific company. Fundamental company information is usually stored with the companies; pricing, dividend, and split related information is usually stored with the securities. The **Company** class is described in detail in the [*Portfolio Management Application Classes*](clpmaCompany.htm#related) document. A number of [related feeds](pma_CompanyMaster.htm#related%20feeds) are also available.
+- The *CompanyMaster* feed is used to create and refresh basic information for **Company** instances. Companies represent the actual corporate entity. One or more **Security** instances may be associated with a specific company. Fundamental company information is usually stored with the companies; pricing, dividend, and split related information is usually stored with the securities. The **Company** class is described in detail in the [*Portfolio Management Application Classes*](../classes/clpmaCompany/9.md) document. A number of [related feeds](pma_CompanyMaster.htm#related%20feeds) are also available.
 
 ## Available Fields:
 

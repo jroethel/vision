@@ -16,7 +16,7 @@ class: "Schema"
 >
 > > Defines a constant representing the name of the Vision database.
 >
-> **Type:** Method          **Returns:** [Schema](tkSchema.htm)
+> **Type:** Method          **Returns:** [Schema](../../general/tkSchema.md)
 >
 > **Parameters:**
 >
