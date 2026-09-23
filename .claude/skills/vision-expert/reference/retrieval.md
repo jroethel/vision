@@ -13,7 +13,8 @@ The corpus in `corpus/` is the source of truth.
 - `qmd query -c vision --full-path "<question>"` - same as `qmd query`, but prints on-disk paths (`corpus/feeds/pma-AnalystEst.md`) instead of `qmd://` + docid.
   Prefer this when you need to cite a path.
 - `qmd get <path or docid>` - fetch a full unit once you have its path or docid from a search hit.
-- `qmd multi-get <pattern>` - batch-fetch several units by glob or comma-separated list (for example `corpus/messages/mDate/*.md`).
+- `qmd multi-get <pattern>` - batch-fetch several units by glob or comma-separated list.
+  Patterns are collection-relative, not `corpus/`-relative (for example `messages/mDate/*.md`, not `corpus/messages/mDate/*.md`).
 
 ## Structured queries
 

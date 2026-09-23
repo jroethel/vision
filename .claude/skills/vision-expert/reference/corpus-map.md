@@ -8,15 +8,15 @@ All units share `ingested: "2026-09-22"` in frontmatter - that is the as-of date
 
 Counts below are unit files (`*.md`), computed with `find corpus/<family> -name '*.md' | wc -l` against the corpus as of this build.
 
-| Family            | Holds                                                    | Count |
-|-------------------|-----------------------------------------------------------|------:|
-| `corpus/feeds/`   | `pma_*` data-feed upload-format docs (fields, types)     |    86 |
-| `corpus/reports/` | Report docs                                              |   408 |
-| `corpus/status/`  | Status docs (the other `pma_*` data-feed family)         |     9 |
-| `corpus/classes/` | `cl*` class docs (hierarchy, superclasses, properties)   |   210 |
-| `corpus/messages/`| `m*` message docs, one per anchor, plus `mXRef`          |  3272 |
-| `corpus/general/` | Everything else                                          |   984 |
-| **Total**         |                                                           |  4969 |
+| Family             | Holds                                                  | Count |
+|--------------------|--------------------------------------------------------|------:|
+| `corpus/feeds/`    | `pma_*` data-feed upload-format docs (fields, types)   |    86 |
+| `corpus/reports/`  | Report docs                                            |   408 |
+| `corpus/status/`   | Status docs (the other `pma_*` data-feed family)       |     9 |
+| `corpus/classes/`  | `cl*` class docs (hierarchy, superclasses, properties) |   210 |
+| `corpus/messages/` | `m*` message docs, one per anchor, plus `mXRef`        |  3272 |
+| `corpus/general/`  | Everything else                                        |   984 |
+| **Total**          |                                                        |  4969 |
 
 `corpus/learnings/` does not exist yet in this snapshot.
 It is added by a later build task for promoted, human-reviewed learnings.
@@ -27,7 +27,7 @@ Every unit's frontmatter carries:
 
 - `provenance` - the original HTML source path under `docs/original/`, with the real (underscore) name, for example `"docs/original/pma_AnalystEst.htm"`.
   For message units the anchor is included, for example `"docs/original/mDate.htm#asQuarterEnd"`.
-- `title` - the real Vision name as documented, for example `"Vision Upload Format: AnalystEst"`.
+- `title` - the document's own heading, not the real name, for example `"Vision Upload Format: AnalystEst "` - the real name is in `provenance`.
 - `unit_type` - one of `feed`, `report`, `status`, `class`, `message`, `general`.
 - `ingested` - the corpus build date, `"2026-09-22"`.
 

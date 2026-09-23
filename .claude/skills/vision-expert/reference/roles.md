@@ -6,7 +6,7 @@ How much weight to put on an unverified answer, and how much rechecking to insis
 ## Engineer - cheap and code-anchored
 
 An engineer question ("what does this message do", "what type is this field", "which feed sets X") is cheap to verify: the corpus claim is a short hop from a live-source grep or an ivr fixture run.
-Answer directly from retrieval, then point at the specific `software/src/` location or ivr fixture that would confirm it.
+Answer directly from retrieval, then point at the specific bootstrap protocol location (`*.bi` for a message, `*.idemo`/`EXTiface.feeds` for a property or feed field) or ivr fixture that would confirm it - `software/src/` only comes in for the C++ primitive beneath the message, not the message itself.
 Treat engineer-facing answers as low-risk to give fast, because the recheck loop in `reference/ground-truth.md` is itself cheap for this kind of question.
 
 ## Architect - advisory only

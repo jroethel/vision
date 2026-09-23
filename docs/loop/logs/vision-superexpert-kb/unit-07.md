@@ -28,7 +28,8 @@ Verified after the reset: `docs/plans/`, `corpus/{feeds,reports,status,classes,m
   - Feed fields (e.g. `pma_AnalystEst`) are defined at the application layer, not in the C++ kernel: `grep -n "AnalystEst" application/localvision/bootstrap/protocol/originals/EXTiface.feeds` finds `AnalystEstimateRecord` at line 496.
   - `mDate`/`mNumber` quarter-end primitives are in `software/src/master/src/backend/PFdate.cpp` (`ByQuarterEndsIncrementDate` etc.), not `software/src/master/src/kernel/` - kernel/ holds different subsystems (e.g. `Vca_Registry_*`).
   - `software/testtools/ivr/` layout verified with `ls`: `order.ivr` and `INITpatch.ivr` at top level, `source/{benchmark,datafeed,ivr,misc,order.vis}`, `testkit/{doc,lib,scripts,test}`, and `testkit/scripts/{buildBaseline,checkProposed,diffProposed,diffProposedClasses,runAllTests}`.
-  - Wrote `ground-truth.md` to say "verify with `ls` rather than assuming a fixed path" precisely because the plan's suggested kernel/ path turned out not to hold for messages, and doesn't apply at all for feed fields.
+  - The original `ground-truth.md` (this first pass) said "verify with `ls` rather than assuming a fixed path", precisely because the plan's suggested kernel/ path turned out not to hold for messages, and doesn't apply at all for feed fields.
+    That wording no longer exists in the current `ground-truth.md`: the two-layer rewrite documented below replaced it with the bootstrap-protocol-first structure.
 
 ## Checks run
 
@@ -51,5 +52,22 @@ The owner amended the plan's ground-truth rule: live source has two layers, the 
 Reconfirmed this session with `grep`/`sed`, none from memory: `Date.bi:231` defines `asQuarterEnd`, `Integer.bi:132` defines the `quarterEnds` message it calls, `PropertySetup.idemo:105` defines `nextQuarterEnd`, and `Offset.bi:105` binds primitive 317 (`ByQuarterEndsIncrementDate`) to `software/src/master/src/backend/PFdate.cpp:545` (`ByQuarterEndsDecrementDate` at line 579).
 Also reconfirmed the pre-existing "Verified" claims: `EXTiface.feeds:496` (`AnalystEstimateRecord` reference), the ivr top-level layout (`order.ivr`, `INITpatch.ivr`), `source/{benchmark,datafeed,ivr,misc,order.vis}`, and `testkit/{doc,lib,scripts,test}` with `testkit/scripts/{buildBaseline,checkProposed,diffProposed,diffProposedClasses,runAllTests}`.
 Rewrote `SKILL.md` and `reference/ground-truth.md` so Step 2 checks the bootstrap protocol first and the C++ primitives second, with every verified claim pointing at a location confirmed this session.
-Also fixed a smaller inaccuracy in `SKILL.md` and `reference/corpus-map.md`: the real underscore feed name lives in a unit's `provenance` field, not `title`.
+Also fixed a smaller inaccuracy in `SKILL.md`: the real underscore feed name lives in a unit's `provenance` field, not `title`.
 `title` is the document's own heading, confirmed against `corpus/feeds/pma-AnalystEst.md` frontmatter (`title: "Vision Upload Format: AnalystEst "`).
+That pass also edited `reference/corpus-map.md`, but left one stale line (`corpus-map.md:30`) still calling `title` "the real Vision name" - an independent validator caught this as a FAIL, and it is fixed in the repair pass below.
+
+## Repair pass: stale reference lines (independent validator FAIL on C5)
+
+An independent validator returned FAIL because `reference/corpus-map.md:30` still described `title` as the real Vision name, contradicting the corrected line 37 in the same file and `SKILL.md`.
+Fixed `corpus-map.md:30` to match: `title` is the document's own heading, not the real name, and the real name is in `provenance`.
+Also found and fixed, all reverified against disk this session:
+- `reference/retrieval.md:16` claimed `qmd multi-get corpus/messages/mDate/*.md` as a working example.
+  Ran it: `No files matched pattern: corpus/messages/mDate/*.md`.
+  `qmd multi-get messages/mDate/*.md` (collection-relative, no `corpus/` prefix) returns files, confirmed by running it.
+  Fixed the example to the working, collection-relative form.
+- `reference/roles.md:9` told the engineer tier to point at a `software/src/` location to confirm a message or field claim.
+  Per the amended two-layer rule, that location is the bootstrap protocol (`*.bi` for a message, `*.idemo`/`EXTiface.feeds` for a property or feed field) or the ivr fixture, with `software/src/` only relevant for the C++ primitive beneath the message.
+  Fixed the sentence accordingly.
+- Padded `corpus-map.md`'s family-count table so every pipe column lines up in the raw text, same width per column across every row including the separator and Total rows, verified with a script that measured every row at 87 characters, under the 110-character house limit.
+- Corrected this doc (`unit-07.md:31` and `unit-07.md:54` before this section) and the resume pointer's State section, both of which had claimed the `corpus-map.md` title fix was already complete when it was not.
+`SKILL.md` was not touched in this repair pass, so the skill-validity check was re-run (`skill valid`) and the headless smoke was not re-run.
